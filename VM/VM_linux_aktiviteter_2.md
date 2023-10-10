@@ -1,4 +1,4 @@
-Aktiviteter med linux:
+Aktiviteter med terminalen i linux:
 
 **Aktivitet 1: Bli kjent med terminalen**
 1. Åpne terminalen ved å klikke på "Menu" og skriv inn "Terminal".
