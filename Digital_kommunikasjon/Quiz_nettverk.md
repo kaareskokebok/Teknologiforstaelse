@@ -197,4 +197,12 @@ Hvilken enhet vil du typisk bruke for å utvide antallet tilgjengelige porter i 
 - C) Firewall
 - D) Server
 
-
+---
+### Riktige Svar
+1B, 2. C, 3. B, 4. A, 5. B,
+   
+6B, 7. C, 8. B, 9. C, 10. B,
+      
+11C, 12. A, 13. B, 14. D, 15. C,
+    
+16B, 17. B, 18. A, 19. A, 20. A
