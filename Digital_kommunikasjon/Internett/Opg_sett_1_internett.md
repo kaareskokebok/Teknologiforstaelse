@@ -1,6 +1,6 @@
 # Velg én av oppgavene, og besvar denne.
 
-Basert på beskrivelsen av videoinnholdet, her er tre oppgaver elevene kan velge mellom for å dykke dypere inn i emnet:
+Oppavene følger videoen [Internet, packets, routing](https://www.youtube.com/watch?v=AYdF7b3nMto).
 
 1. **Forskning på Pakkebasert Kommunikasjon**:
    - **Oppgavebeskrivelse**: I starten av videoen lærte vi at internett er laget av små pakker som reiser til sin destinasjon uten en fast rute. Undersøk og skriv en kort rapport (ca. 300 ord) om hvordan denne pakkebaserte kommunikasjonen fungerer. Hvordan kan data brytes ned i pakker? Hvordan sikrer systemet at alle pakker når sin destinasjon? Hvordan håndteres tapte eller forsinkede pakker?
@@ -17,3 +17,17 @@ Basert på beskrivelsen av videoinnholdet, her er tre oppgaver elevene kan velge
 Elevene kan deretter dele det de har lært med klassekameratene, 
 enten gjennom en skriftlig rapport, en presentasjon, eller en praktisk demonstrasjon, 
 avhengig av oppgaven de valgte og deres komfortnivå med emnet.
+
+4. **Utforskning av HTTP og HTTPS:**
+
+   - **Oppgavebeskrivelse:** Senere i videoen ble HTTP og HTTPS nevnt som kritiske protokoller for å tilgang til webinnhold. Dykk dypere inn i hva HTTP og HTTPS er. Hvordan sikrer HTTPS at overført data er sikker? Hva er forskjellen mellom HTTP og HTTPS på et teknisk nivå? Hvordan vet du som bruker at du er på en sikker nettside?
+  
+   - **Ressurser:** Start med å utforske grunnleggende nettressurser som Mozilla Developer Network (MDN) eller W3Schools for en forståelse av HTTP/HTTPS. For en dypere forståelse kan du se på teknisk dokumentasjon som RFC-er (Request for Comments) for disse protokollene eller artikler som forklarer SSL/TLS kryptering.
+
+---
+
+**Om oppgavesettet:**
+
+Målet med disse oppgavene er å dykke dypere inn i konseptene presentert i videoen. Etter å ha fullført din valgte oppgave, vil du forklare konseptene for dine klassekamerater og legge fram det du har funnet ut.
+
+Husk å bruke de foreslåtte ressursene som utgangspunkt for din forskning, og føl deg fri til å utforske ytterligere kilder for en mer omfattende forståelse. Lykke til med utforskningen!
