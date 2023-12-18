@@ -3,8 +3,8 @@
 ## Del 1: Sette opp din første Live Stream
 
 ### Trinn 1: Velge Streaming Software
-- **Anbefalt Software**: OBS Studio (Open Broadcaster Software) eller Streamlabs (finn lenke selv)
-- **Nedlasting**: [Link til OBS Studio](https://obsproject.com/)
+- **Anbefalt Software**: OBS Studio (Open Broadcaster Software) eller Streamlabs.
+- **Nedlasting**: [Link til OBS Studio](https://obsproject.com/) eller [Link til Streamlabs](https://streamlabs.com/)
 - **Installering**: Følg instruksjonene på skjermen etter nedlasting.
 
 ### Trinn 2: Konfigurere OBS Studio / Streamlabs
