@@ -3,18 +3,6 @@
 ### Mål:
 I denne øvelsen vil dere åpne opp kabinettet på en stasjonær PC, ta bilde av innsiden, identifisere og merke de ulike komponentene, og beskrive hensikten med hver av dem.
 
-### Utstyr du trenger:
-- Stasjonær PC
-- Skrutrekker (for å åpne kabinettet)
-- Kamera eller Smartphone
-- Bilderedigeringsprogram (som Paint, GIMP, eller lignende)
-- Dokumentredigerer (som Microsoft Word, Google Docs, eller lignende)
-
-### Sikkerhetsforanstaltninger:
-1. **Sørg for at datamaskinen er slått av og frakoblet alle strømkilder før dere åpner kabinettet.**
-2. Unngå statisk elektrisitet ved å berøre en jordet metallgjenstand før du berører PC-komponentene.
-3. Vær forsiktig så dere ikke skader noen av komponentene når kabinettet åpnes.
-
 ### Instruksjoner:
 
 **Del 1: Forberedelse og fotografering**
