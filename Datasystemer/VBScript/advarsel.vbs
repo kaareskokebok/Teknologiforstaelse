@@ -1,0 +1,1 @@
+MsgBox "Batteriet er svært lavt, koble til laderen", vbCritical, "Advarsel!!!"
