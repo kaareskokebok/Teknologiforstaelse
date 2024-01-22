@@ -1,0 +1,6 @@
+<Configuration>
+    <LogonCommand>
+        <Command>cmd.exe /c start msedge https://www.vg.no/</Command>
+    </LogonCommand>
+    
+</Configuration>

@@ -1,0 +1,5 @@
+<Configuration>
+    <LogonCommand>
+    <Command>cmd.exe /c start msedge</Command>
+</LogonCommand>
+</Configuration>
