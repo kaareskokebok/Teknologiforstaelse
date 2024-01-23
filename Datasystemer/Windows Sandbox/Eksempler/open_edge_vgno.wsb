@@ -1,0 +1,6 @@
+<Configuration>
+<LogonCommand>
+<!-- Hvordan åpne vg.no når edge åpner? -->
+<Command>cmd.exe /c start msedge vg.no</Command>
+</LogonCommand>
+</Configuration>

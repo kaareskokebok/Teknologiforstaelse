@@ -1,0 +1,8 @@
+<Configuration>
+    <MappedFolders>
+        <MappedFolder>
+            <HostFolder>c:\sandboxfiler</HostFolder>
+            <ReadOnly>true</ReadOnly>
+        </MappedFolder>
+    </MappedFolders>
+</Configuration>

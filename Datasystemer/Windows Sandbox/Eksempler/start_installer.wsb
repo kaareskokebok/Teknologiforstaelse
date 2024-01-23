@@ -1,0 +1,10 @@
+<Configuration>
+    <MappedFolders>
+        <MappedFolder>
+            <HostFolder>c:\sandboxfiler</HostFolder>
+        </MappedFolder>
+    </MappedFolders>
+    <LogonCommand>
+        <Command>C:\Users\WDAGUtilityAccount\Desktop\sandboxfiler\7zip-installer.exe</Command>
+    </LogonCommand>
+</Configuration>
