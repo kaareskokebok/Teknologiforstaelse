@@ -13,3 +13,5 @@ På jobben, et kontrollsenter for AR-brukere, overvåker jeg strømmer av data. 
 Innimellom skimter jeg glimt av en verden utenfor, gjennom vinduer som sjelden er fri for digitale filter. Jeg lurer på hvordan den rene virkeligheten ser ut, føles, smaker. Men tanken forsvinner raskt, erstattet av et nytt sett med data, en ny bølge av simulert virkelighet.
 
 Slik flyter dagen min, i et hav av digital forvrengning, hvor jeg er både fange og vokter. Jeg lengter etter noe ekte, noe ubesmittet, men i dette dystopiske fremtidsbildet, er det en lengsel som føles stadig mer utenfor rekkevidde.
+
+![Aliah futuristic](aliah_future.png "An AR-enhanced future")
