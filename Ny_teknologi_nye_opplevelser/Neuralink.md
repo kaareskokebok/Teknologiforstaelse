@@ -12,7 +12,7 @@ Her er fem enkle faktaspørsmål basert på nyhetssendingen:
 4. **Hvordan lades det implanterte hjerneprosessoren?**
 5. **Hvem utfører implantasjonen av hjerneprosessoren?**
 
-### To diskusjonsspørsmål:
+### Tre diskusjonsspørsmål:
 
 1. **Personvern og Overvåking:** Gitt at Neuralinks teknologi kan tolke tanker, hvilke personvernhensyn bør tas i betraktning? Hvordan bør samfunnet balansere potensielle fordeler med risikoen for overvåking og tap av tankefrihet?
 2. **Hacking og Sikkerhetsrisikoer:** Med tanke på at BCI-teknologien innebærer direkte tilkobling til hjernen, hva er de potensielle risikoene for hacking eller misbruk? Hvordan bør samfunnet og lovgivere håndtere disse sikkerhetsutfordringene?
