@@ -14,4 +14,7 @@ Lenken til den endelige nettsiden legges i onenote, med et skjermbilde av hvorda
 
 ## Ressurser
 - 360-produksjoner: [poly.cam/](https://poly.cam/) og [ptgui.com/](https://ptgui.com/)
+- Bruk youtube-videoer for å komme i gang med 360-prod:
+  - [ptgui-tutorials](https://www.youtube.com/watch?v=O2JaDKSOtwY)
+  - [polycam get started](https://www.youtube.com/watch?v=YcNTv4OrDYg)
 - [github.com](https://github.com/)
