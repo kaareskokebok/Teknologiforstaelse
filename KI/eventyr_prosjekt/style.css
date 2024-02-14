@@ -1,0 +1,55 @@
+body{
+    background-color:black;
+    margin:0px; 
+   }
+
+   .eventyr-container {
+    background-color: black;
+    color:white;
+    width: 90%;
+    max-width: 900px; /* eller en annen maksbredde etter behov */
+    margin: 0 auto; /* sentrerer containeren */
+    overflow: hidden; /* sikrer at flytende elementer ikke bryter ut av containeren */
+    font-family: "Tangerine", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.eventyr-kap-container-venstre, .eventyr-kap-container-hoyre {
+/* width: 48%; Tilpasser bredde for å unngå at elementene går over hverandre */
+margin-bottom: 0px;
+min-height:250px;
+}
+
+
+
+.eventyr-kap-container-venstre img, .eventyr-kap-container-hoyre img {
+width:250px;
+height:auto;
+border: 2px solid white;
+}
+.eventyr-kap-container-venstre img{
+float:left;
+margin-right:3%;
+margin-bottom:5%;
+}
+.eventyr-kap-container-hoyre img{
+float:right;
+margin-left:3%;
+margin-bottom:5%;
+}
+
+.eventyr-slutt {
+clear: both; /* Fjerner flyttingen, så "snipp snapp snute"-delen vises under de flytende elementene */
+text-align: center; /* Sentrerer avslutningsteksten */
+padding-top: 20px; /* Litt plass over avslutningsteksten */
+}
+footer{
+border-top: 2px dashed lightgray;
+padding: 10px;
+text-align: right;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight: 300;
+font-style: italic;
+font-size: 0.5rem;
+}
