@@ -1,9 +1,11 @@
 body{
     /* background-color:black; */
     background-color: #212529;
-    margin:0px; 
+    margin:30px; 
    }
-
+h1{
+    text-align: center;
+}
    .eventyr-container {
     /* background-color: black; */
     color:white;
@@ -11,18 +13,27 @@ body{
     max-width: 900px; /* eller en annen maksbredde etter behov */
     margin: 0 auto; /* sentrerer containeren */
     overflow: hidden; /* sikrer at flytende elementer ikke bryter ut av containeren */
-    font-family: "Tangerine", cursive;
+    /* font-family: "Tangerine", cursive;
     font-weight: 400;
-    font-style: normal;
-    font-size: 1.9rem;
+    font-style: normal; */
+    font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style:normal;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
 }
 
 .eventyr-kap-container-venstre, .eventyr-kap-container-hoyre {
 /* width: 48%; Tilpasser bredde for å unngå at elementene går over hverandre */
-margin-bottom: 0px;
 min-height:250px;
 }
-
+p{
+    margin-top: 0;
+}
 
 
 .eventyr-kap-container-venstre img, .eventyr-kap-container-hoyre img {
@@ -53,5 +64,5 @@ text-align: right;
 font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 font-weight: 300;
 font-style: italic;
-font-size: 0.5rem;
+font-size: 0.9rem;
 }
