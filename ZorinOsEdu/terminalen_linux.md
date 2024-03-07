@@ -1,5 +1,13 @@
 # Terminalen i Linux
 
+## Logge seg på Debian-serveren
+Dere kan logge dere på med deres brukernavn og passord gjennom SSH ved å skrive:
+```bash
+ssh brukernavn@nannestad-imk.no
+```
+Du blir promptet om passord. Når passordet er tastet inn, er du klar for å bruke terminalen i Linux.
+Endringer du nå gjør, foregår på ditt hjemmeområde på Debian-serveren (som står på lekerommet).
+
 ## Navigering i filsystemet
 
 | Kommando    | Forklaring |
@@ -42,7 +50,6 @@ scp eksempel.txt brukernavn@eksempelserver.com:~/dokumenter
 4. Etter å ha skrevet inn passordet, vil filen `eksempel.txt` bli kopiert til `/home/brukernavn/dokumenter` på serveren.
 
 I dette eksemplet antas det at du har tillatelse til å skrive til målmappen på serveren, og at SSH-tjenesten kjører på `eksempelserver.com`.
-
 
 ## Redigere og lese filer
 
