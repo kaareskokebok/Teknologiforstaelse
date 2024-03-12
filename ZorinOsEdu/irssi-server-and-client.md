@@ -31,8 +31,8 @@ sudo apt-get update
 sudo apt-get install ircd-hybrid
 ```
 
-### Step 2: Configure ircd-hybrid (Skip this for now! Go to Step 3!)
-
+### Step 2: Configure ircd-hybrid
+#### (Skip this for now! Go to Step 3!)
 After installation, you'll need to configure your IRC server. The main configuration files are located in `/etc/ircd-hybrid`. The primary configuration file you'll want to edit is `ircd.conf`.
 
 1. **Edit the Configuration File**: You'll need to edit `/etc/ircd-hybrid/ircd.conf` to suit your needs. You can use any text editor like `nano` or `vim`. 
