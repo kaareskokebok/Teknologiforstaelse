@@ -6,8 +6,6 @@
   - [Step 1: Install ircd-hybrid](#step-1-install-ircd-hybrid)
   - [Step 2: Configure ircd-hybrid](#step-2-configure-ircd-hybrid)
   - [Step 3: Start ircd-hybrid](#step-3-start-ircd-hybrid)
-  - [Step 4: Connect to Your Local IRC Server](#step-4-connect-to-your-local-irc-server)
-  - [Step 5: Further Configuration and Management](#step-5-further-configuration-and-management)
 - [Connecting to the server](#connecting-to-the-server)
   - [Step 1: Install irssi](#step-1-install-irssi)
   - [Step 2: Run irssi and connect](#step-2-run-irssi-and-connect)
