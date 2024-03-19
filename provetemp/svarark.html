@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <title>Svarark - Flervalg</title>
+    
+   <link rel="stylesheet" href="style.css">
+   <style>
+    body {
+        font-family: Arial, sans-serif;
+        /* padding: 20px; */
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        border: 1px solid black;
+        text-align: center;
+        padding: 10px;
+    }
+    th {
+        background-color: #f2f2f2;
+    }
+</style>
+</head>
+<body>
+    <div class="test-container">
+    <h1>Svarark</h1>
+    <h2>Navn:_______________________________</h2>
+    <h2>Svarark for Flervalgsdelen</h2>
+    <div id="answerSheet"></div>
+    <script>
+        const questions = 17; // Antall spørsmål
+    let tableHTML = `<table border="1">
+                        <thead>
+                            <tr>
+                                <th>Opg.nr.</th>
+                                <th>a</th>
+                                <th>b</th>
+                                <th>c</th>
+                                <th>d</th>
+                                <th>e</th>
+                            </tr>
+                        </thead>
+                        <tbody>`;
+
+                            tableHTML += `<tr>
+                        <td>-1</td>
+                        <td></td>
+                        <td>&#10004;</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                      </tr>`;
+                      tableHTML += `<tr>
+                        <td>0</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>&#10004;</td>
+                      </tr>`;
+    for (let i = 1; i <= questions; i++) {
+        tableHTML += `<tr>
+                        <td>${i}</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                      </tr>`;
+    }
+
+    tableHTML += `</tbody></table>`;
+
+    document.getElementById('answerSheet').innerHTML = tableHTML;
+    </script>
+
+<div id="tekstsvar">
+<h2>Tekstsvar</h2>
+<script>
+    const startQuestion = 18; // Startnummer for nye oppgaver
+    const endQuestion = 27; // Sluttnummer for oppgaver
+    const tekstsvarContainer = document.getElementById('tekstsvar');
+
+    for (let i = startQuestion; i <= endQuestion; i++) {
+        
+
+        const answerBox = document.createElement('div');
+        answerBox.classList.add('answer-box');
+        if (i === 27){
+            answerBox.style.height = "200px";
+        }
+        const questionHeader = document.createElement('h3');
+        questionHeader.textContent = `${i}.`;
+        answerBox.appendChild(questionHeader);
+        tekstsvarContainer.appendChild(answerBox);
+    }
+</script>
+
+</div>
+</div>
+</body>
+</html>
