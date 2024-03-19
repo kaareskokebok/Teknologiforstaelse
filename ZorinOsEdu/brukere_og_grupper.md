@@ -37,6 +37,9 @@ Lock and unlock a user account:
 - **Usage**: `chage [options] username`
 - **Example**: `chage -E 2024-12-31 newuser`  
   Sets the account expiration date for `newuser`.
+- **Example**: `chage -d 0 username`
+  Forces the user to immediately change password after next login.
+
 
 ### 7. `id`
 - **Description**: Displays user and group information for a specified user.
