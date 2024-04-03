@@ -12,7 +12,7 @@ Eldre på bosenteret som er interessert i å lære hvordan man bruker Word på e
 
 **Bruksanvisningens Omfang:**  
 1. **Bruk av Word på PC:**
-   - Grunnleggende funksjoner som å åpne, skrive, lagre og skrive ut dokumenter.
+   - Grunnleggende funksjoner som å åpne, skrive ved å lage overskrift og brødtekst (vanlig tekst), lagre og skrive ut dokumenter.
 2. **Opprette og bruke en E-postkonto:**
    - Steg-for-steg guide for opprettelse av en ny e-postkonto, samt hvordan sende og motta e-post.
 3. **Ta og Sende Bilder med Mobil eller Nettbrett:**
