@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake</title>
+    <style>
+        main{
+            display: none;
+        }
+        /* Alle direkte barn av main */
+        main > *{
+            padding-left:30px;
+        }
+        body{
+            margin:0;
+        }
+        .knappContainer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height:100vh;
+            background-color: black;
+        }
+        .knappContainer button{
+            padding:20px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="knappContainer"><button onclick="visSecret()">Trykk for å se Ernas SECRETS</button></div>
+    
+    <main>
+        <h1>Hemmelighetene om Erna</h1>
+        <p>Erna liker ikke svenske kjøttboller...</p>
+        <img src="https://picsum.photos/id/1020/600/400" alt="">
+        <p>Erna har bjørner hjemme, helt ulovlig.</p>
+    </main>
+
+    <script>
+function visSecret(){
+    let main = document.querySelector("main");
+    main.style.display = "block";
+    let knappContainer = document.querySelector(".knappContainer");
+    knappContainer.style.display = "none";
+
+    // Starte video, id= "minVideo"
+    // minVideo.play();
+}
+    </script>
+</body>
+</html>
