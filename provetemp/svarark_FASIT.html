@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <title>Svarark - Flervalg</title>
+    
+   <link rel="stylesheet" href="style_fasit.css">
+   <style>
+    body {
+        font-family: Arial, sans-serif;
+        /* padding: 20px; */
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        border: 1px solid black;
+        text-align: center;
+        padding: 10px;
+    }
+    th {
+        background-color: #f2f2f2;
+    }
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="test-container">
+    <h1>Svarark</h1>
+    <h2>Navn: Jensern med Gensern</h2>
+    <h2>Svarark for Flervalgsdelen</h2>
+    <div id="answerSheet"></div>
+    <script>
+        const questions = 17; // Antall spørsmål
+    let tableHTML = `<table border="1">
+                        <thead>
+                            <tr>
+                                <th>Opg.nr.</th>
+                                <th>a</th>
+                                <th>b</th>
+                                <th>c</th>
+                                <th>d</th>
+                                <th>e</th>
+                            </tr>
+                        </thead>
+                        <tbody>`;
+
+                            tableHTML += `<tr>
+                        <td>-1</td>
+                        <td></td>
+                        <td>&#10004;</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                      </tr>`;
+                      tableHTML += `<tr>
+                        <td>0</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>&#10004;</td>
+                      </tr>`;
+    let svarene = [1,2,2,3,2,4,1,3,1,0,3,0,2,0,3,0,4];
+    for (let i = 1; i <= questions; i++) {
+        tableHTML += `<tr>
+                        <td>${i}</td>`;
+        for (let j = 0; j<5;j++){
+            if (svarene[i-1] == j){
+                tableHTML += `<td>&#10004;</td>` 
+            }else{
+                tableHTML += "<td></td>"
+            }
+
+        }
+                        
+                      
+                      tableHTML += "</tr>";
+    }
+
+    tableHTML += `</tbody></table>`;
+
+    document.getElementById('answerSheet').innerHTML = tableHTML;
+    </script>
+
+<div id="tekstsvar">
+<h2>Tekstsvar</h2>
+<script>
+    const startQuestion = 18; // Startnummer for nye oppgaver
+    const endQuestion = 27; // Sluttnummer for oppgaver
+    const tekstsvarContainer = document.getElementById('tekstsvar');
+
+    for (let i = startQuestion; i <= endQuestion; i++) {
+        
+
+        const answerBox = document.createElement('div');
+        answerBox.classList.add('answer-box');
+        // if (i === 27){
+        //     answerBox.style.height = "200px";
+        // }
+        const questionHeader = document.createElement('h3');
+        questionHeader.textContent = `${i}.`;
+        answerBox.appendChild(questionHeader);
+        tekstsvarContainer.appendChild(answerBox);
+    }
+
+    $(".answer-box")[0].innerHTML += "Religiøs overbevisning, seksuell legning og biometriske data (fingeravtrykk, osv.)";
+    $(".answer-box")[1].innerHTML += `<pre class="bash">
+erlend@nannestad-imk:~/tekstfiler$ ls
+Bilturer  dikt.txt
+erlend@nannestad-imk:~/tekstfiler$ cd Bilturer
+            </pre>`;
+
+$(".answer-box")[2].innerHTML += `<pre class="bash">
+erlend@nannestad-imk:~/tekstfiler/Bilturer$ cd ~
+            </pre>`;
+
+$(".answer-box")[3].innerHTML += `<pre class="bash">
+erlend@nannestad-imk:~$ mkdir Historier
+erlend@nannestad-imk:~$ cd Historier
+erlend@nannestad-imk:~/Historier$ mkdir Skumle
+            </pre>`;
+
+$(".answer-box")[4].innerHTML += `<pre class="bash">
+erlend@nannestad-imk:~/Historier/Skumle$ touch scary1.txt
+erlend@nannestad-imk:~/Historier/Skumle$ echo "My scary story nr.1" > scary1.txt
+            </pre>`;
+
+$(".answer-box")[5].innerHTML += `<pre class="bash">
+erlend@nannestad-imk:~/Historier/Skumle$ ls
+insane.txt  less_scary.txt  scary1.txt
+erlend@nannestad-imk:~/Historier/Skumle$ rm insane.txt
+            </pre>`;
+
+$(".answer-box")[6].innerHTML += `<pre class="bash">
+erlend@nannestad-imk:~/Historier/Skumle$ ls
+insane.txt  less_scary.txt  scary1.txt
+erlend@nannestad-imk:~/Historier/Skumle$ cp scary1.txt ~/Delt
+            </pre>`;
+
+$(".answer-box")[7].innerHTML += `<pre class="bash">
+PS C:\\Users\\kaarej\\Secret> ls
+
+    Directory: C:\\Users\\kaarej\\Secret
+
+Mode                    Length Name
+----                    ------ ----
+-a----                       0 top_secret_code.py
+
+PS C:\\Users\\kaarej\\Secret> scp top_secret_code.py arne@nannestad-imk.no:~/mycode/secrets
+            </pre>`;
+
+$(".answer-box")[8].innerHTML += `<pre class="bash">
+C:\\Users\\kaarej\\Secret> ssh arne@nannestad-imk.no
+arne@nannestad-imk.no's password: enra
+arne@nannestad-imk:~$ cd ~/mycode/secrets
+arne@nannestad-imk:~/mycode/secrets$ cat top_secret_code.py
+            </pre>`;
+
+$(".answer-box")[9].innerHTML += `<pre class="bash">
+C:\\Users\\arne> scp arne@nannestad-imk.no:~/mycode/secrets/top_secret_code.py arnstein@192.168.1.127:~
+            </pre>`;
+
+</script>
+
+</div>
+</div>
+</body>
+</html>
