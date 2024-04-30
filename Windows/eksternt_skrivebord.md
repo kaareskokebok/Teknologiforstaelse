@@ -1,7 +1,7 @@
 # Remote desktop (eksternt skrivebord)
 
-## NB! Fungerer ikke for Win Home
-Løsning: Bruk alternativer som f.eks.
+## Alternativer
+Har du windows home, bruk alternativer som f.eks.
 - [anydesk](https://anydesk.com/en)
 - [chrome remote desktop](https://chromewebstore.google.com/detail/chrome-remote-desktop/inomeogfingihgjfjlpeplalcfajhgai)
 - [teamviewer](https://www.teamviewer.com/en/)
