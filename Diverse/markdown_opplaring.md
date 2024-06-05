@@ -81,7 +81,9 @@ Dette tilsvarer HTML:
 <img alt="Alt tekst her" src="mittbilde.png">
 ```
 Bruk f.eks. picsum til å lage et bilde her: 
+
 ![Bilde fra picsum](https://picsum.photos/200)
+
 Koden til bilde 
 ```markdown
 ![Bilde fra picsum](https://picsum.photos/200)
